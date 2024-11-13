@@ -1,0 +1,94 @@
+/* Pretendard Font Import */
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-Thin.otf") format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-ExtraLight.otf") format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-SemiBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("../fonts/pretendard/Pretendard-ExtraBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 1200px) {
+    font-size: 58%;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 55%;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 45%;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Pretendard", sans-serif;
+  line-height: 2.6rem;
+  color: $black-80;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  border: none;
+  background-color: transparent;
+}
